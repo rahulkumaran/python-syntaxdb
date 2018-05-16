@@ -34,4 +34,5 @@ Now we have 2 functions to help you out based on what you need!<br/><br/>
 
 Incase you're looking at getting a particular concept's data, then you could use the ```getContent()``` function.<br/>
 Otherwise you could use the ```getAllConcepts()``` function.<br/><br/>
+
 ## Support us if you like this project, by starring this repository
