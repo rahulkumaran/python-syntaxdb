@@ -15,11 +15,13 @@ Also, user_language and user_search could be optional args. You could use either
 ### user_choice
 - Can be 0 or 1
 - Use 0 if you want to search for a particular concept in a programming language.
-- ```Example: If you want to know what a for loop does in python,
+```
+     Example: If you want to know what a for loop does in python,
      syntax_object = syntaxdb.Syntaxdb(user_choice = 0,user_search= "for in python")
-  ```
+```
 - Use 1 if you want to get all the concepts of a particular programming language.
-- ```Example: If you want to know about all the basic concepts in Java,
+```
+     Example: If you want to know about all the basic concepts in Java,
      syntax_object = syntaxdb.Syntaxdb(user_choice = 1,user_langauge= "java")
-  ```
+```
 ## Support us if you like this project, by starring this repository
