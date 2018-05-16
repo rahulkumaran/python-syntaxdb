@@ -6,7 +6,7 @@ class Syntaxdb():
 		'''choice = 0 => concepts in any language'''
 		'''choice = 1 => all concepts of particular language'''
 		if(choice == 0):
-			self.url = "https://https://syntaxdb.com/api/v1/concepts/search?q="+search_query+" in "+language
+			self.url = "https://https://syntaxdb.com/api/v1/concepts/search?q="+search_query
 		else:
 			self.url = "https://syntaxdb.com/api/v1/languages/"+language+"/concepts"
 
