@@ -24,4 +24,10 @@ Also, user_language and user_search could be optional args. You could use either
      Example: If you want to know about all the basic concepts in Java,
      syntax_object = syntaxdb.Syntaxdb(user_choice = 1,user_langauge= "java")
 ```
+
+### user_search and user_langauge
+- user_search must be filled if choice is 0
+- user_language must be filled if choice is 1
+- The example in user_choice would make things clear for you! Please have a look again carefully.
+
 ## Support us if you like this project, by starring this repository
